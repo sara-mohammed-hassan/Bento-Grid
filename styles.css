@@ -1,0 +1,173 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100svh;
+    background-color: #FBF5DD;
+    font-family: "Lexend Deca", serif;
+    font-weight: 500;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.Bento-Grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 30px;
+}
+
+.Bento-Grid>div {
+
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.Five-star {
+    grid-column: 2/span 2;
+    grid-row: 1/span 2;
+    background-color: #7C5CFC;
+    color: #FFFFFF;
+}
+
+.Five-star h1,
+p {
+
+    padding: 20px;
+
+}
+
+.Five-star span {
+    color: #FFC857;
+}
+
+.Multiple-Platforms {
+    grid-column: 2/span 1;
+    grid-row: 3/span 2;
+    background-color: #FFFFFF;
+}
+
+.Multiple-Platforms h1 {
+    max-width: 250px;
+
+}
+
+.Multiple-Platforms .image-container {
+    max-width: 400px;
+    overflow: hidden;
+    position: relative;
+    left: 10px;
+
+}
+
+.Consistent-Schedule {
+    grid-column: 3/span 1;
+    grid-row: 3/span 2;
+    background-color: #FFC857;
+
+
+}
+
+.Consistent-Schedule h1 {
+    max-width: 250px;
+}
+
+.Consistent-Schedule .image-container {
+    max-height: 200px;
+    overflow: hidden;
+    position: relative;
+    top: 40px;
+}
+
+.Schedule-Posts {
+    grid-column: 4/span 1;
+    grid-row: 1/span 4;
+    background-color: #E8E2F7;
+
+
+}
+
+.Schedule-Posts .image-container {
+    max-width: 400px;
+    overflow: hidden;
+    position: relative;
+    left: 40px;
+
+}
+
+.Schedule-Posts h1,
+p {
+    padding: 20px;
+    width: 250px;
+}
+
+.Grow-Followers {
+    grid-column: 3/span 2;
+    grid-row: 5/span 2;
+    background-color: #7C5CFC;
+    flex-direction: row;
+
+}
+
+.Grow-Followers h1 {
+    color: #FFFFFF;
+    max-width: 200px;
+
+}
+
+.Oudience-Growth {
+    grid-column: 2/span 1;
+    grid-row: 5/span 2;
+    background-color: #FFFFFF;
+
+
+}
+
+.Oudience-Growth h1,
+p {
+    padding: 20px;
+}
+
+.Create-Content {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 3;
+    background-color: hsl(31, 66%, 93%);
+}
+
+.Create-Content h1 {
+    padding: 20px;
+    max-width: 250px;
+}
+
+.Create-Content span {
+    color: #7C5CFC;
+}
+
+.IA-Content {
+    grid-column: 1 / span 1;
+    grid-row: 4 / span 3;
+    background-color: #FFC857;
+    padding: 20px;
+}
+
+.IA-Content h1 {
+    padding: 20px;
+    max-width: 250px;
+}
